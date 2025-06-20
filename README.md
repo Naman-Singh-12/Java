@@ -1,2 +1,2 @@
 # Java-Code
-Coding Java 
+Java Coding Practice
