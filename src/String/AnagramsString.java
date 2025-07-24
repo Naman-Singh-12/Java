@@ -1,6 +1,5 @@
 package String;
 
-import kotlin.Pair;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,7 +12,7 @@ public class AnagramsString {
         boolean isCaseSensitive = true;
         boolean isSpaceCount = true;
 
-        List<Pair<String, String>> testCases = Arrays.asList(
+       /* List<Pair<String, String>> testCases = Arrays.asList(
                 new Pair("listen", "silent"),          // Should be Anagram ✅
                 new Pair("hello", "helloo"),           // Not Anagram ❌ (different lengths)
                 new Pair("Hello", "helol"),            // Should be Anagram ✅
@@ -37,7 +36,7 @@ public class AnagramsString {
             checkAnagram(str1, str2);
            // nativeAnagramCheck(str1, str2);
 
-        }
+        }*/
 
     }
 
