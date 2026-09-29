@@ -1,4 +1,4 @@
-package String;
+package Old.nov_dec_2025.String;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 public class RotationOfBothString {
 
     public static void main(String[] args){
-        System.out.println("Both String are rotation of each other");
+        System.out.println("Both Old.nov_dec_2025.String are rotation of each other");
 
         List<String[]> testCases = new ArrayList<>();
 

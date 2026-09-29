@@ -1,10 +1,10 @@
-package Array;
+package Old.nov_dec_2025.Array;
 
 public class ArrayIsSorted {
 
     public static void main(String[] args){
 
-        System.out.print("Sorting Array");
+        System.out.print("Sorting Old.nov_dec_2025.Array");
         int[] arr = {5,2,7,4,9,1,6,4};
         sortTheArray(arr);
     }

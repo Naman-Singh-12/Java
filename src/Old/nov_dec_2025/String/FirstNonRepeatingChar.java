@@ -1,4 +1,4 @@
-package String;
+package Old.nov_dec_2025.String;
 
 import java.util.*;
 
@@ -40,7 +40,7 @@ public class FirstNonRepeatingChar {
                 }
             }
             if(isUnique){
-                return String.valueOf(str.charAt(i));
+                return Old.nov_dec_2025.String.valueOf(str.charAt(i));
             }
 
         }

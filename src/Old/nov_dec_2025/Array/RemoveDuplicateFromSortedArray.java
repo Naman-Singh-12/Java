@@ -1,11 +1,11 @@
-package Array;
+package Old.nov_dec_2025.Array;
 
 import java.util.Arrays;
 
 public class RemoveDuplicateFromSortedArray {
 
     public static void main(String[] arg){
-        System.out.println("Remove duplicate from Sorted Array");
+        System.out.println("Remove duplicate from Sorted Old.nov_dec_2025.Array");
 
         int[] arr = {5,2,7,9,9,3,5,0,6,11,1,3};
         //removeDuplicateByNative(arr);

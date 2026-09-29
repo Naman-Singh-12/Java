@@ -1,4 +1,4 @@
-package String;
+package Old.nov_dec_2025.String;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -28,7 +28,7 @@ public class DuplicateString {
     private static void byNaiveApproach (String str) {
         StringBuilder already = new StringBuilder();
         for(int i = 0; i<str.length();i++){
-            if(already.toString().contains(String.valueOf(str.charAt(i))) || str.charAt(i) == ' '){
+            if(already.toString().contains(Old.nov_dec_2025.String.valueOf(str.charAt(i))) || str.charAt(i) == ' '){
                 continue;
             }else{
                 already = already.append(str.charAt(i));

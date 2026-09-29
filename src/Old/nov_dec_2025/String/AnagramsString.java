@@ -1,4 +1,4 @@
-package String;
+package Old.nov_dec_2025.String;
 
 
 import java.util.Arrays;
@@ -7,12 +7,12 @@ import java.util.List;
 public class AnagramsString {
 
     public static void main(String[] args){
-        System.out.print("Anagrams String");
+        System.out.print("Anagrams Old.nov_dec_2025.String");
 
         boolean isCaseSensitive = true;
         boolean isSpaceCount = true;
 
-       /* List<Pair<String, String>> testCases = Arrays.asList(
+       /* List<Pair<Old.nov_dec_2025.String, Old.nov_dec_2025.String>> testCases = Arrays.asList(
                 new Pair("listen", "silent"),          // Should be Anagram ✅
                 new Pair("hello", "helloo"),           // Not Anagram ❌ (different lengths)
                 new Pair("Hello", "helol"),            // Should be Anagram ✅
@@ -28,9 +28,9 @@ public class AnagramsString {
 
 
 
-        for (Pair<String, String> test : testCases) {
-            String str1 = test.getFirst().toLowerCase();
-            String str2 = test.getSecond().toLowerCase();
+        for (Pair<Old.nov_dec_2025.String, Old.nov_dec_2025.String> test : testCases) {
+            Old.nov_dec_2025.String str1 = test.getFirst().toLowerCase();
+            Old.nov_dec_2025.String str2 = test.getSecond().toLowerCase();
 
 
             checkAnagram(str1, str2);

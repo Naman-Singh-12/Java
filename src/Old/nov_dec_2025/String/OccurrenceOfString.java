@@ -1,9 +1,9 @@
-package String;
+package Old.nov_dec_2025.String;
 
 public class OccurrenceOfString {
 
     public static void main(String[] args){
-        System.out.println("Occurrence of char in String");
+        System.out.println("Occurrence of char in Old.nov_dec_2025.String");
         String[] arr = {"aa aAa","abc123","&*()","Aa","abc"};
 
         for(String i : arr){
